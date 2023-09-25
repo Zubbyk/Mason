@@ -43,10 +43,15 @@ body {
 }
 
 .container {
-    white-space: nowrap; /* Запрет переноса текста на новую строку */
-    overflow: hidden; /* Скрываем текст, выходящий за границу элемента */
-    position: relative; /* Необходимо для абсолютного позиционирования текста */
-    animation: scrollText 10s linear infinite; /* Анимация текста */
+  height: 50vh;
+  color: black;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+  text-transform: uppercase;
+  font-size: 330px;
+  font-weight: bold;
+  width: 100%;
+  overflow: hidden;    
   }
 
   @keyframes scrollText {
