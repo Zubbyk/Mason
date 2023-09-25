@@ -43,7 +43,7 @@ body {
 }
 
 .container {
-white-space: nowrap; /* Запрет переноса текста на новую строку */
+    white-space: nowrap; /* Запрет переноса текста на новую строку */
     overflow: hidden; /* Скрываем текст, выходящий за границу элемента */
     position: relative; /* Необходимо для абсолютного позиционирования текста */
     animation: scrollText 10s linear infinite; /* Анимация текста */
