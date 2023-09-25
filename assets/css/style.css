@@ -44,7 +44,7 @@ body {
 
 .container {
   height: 50vh;
-  color: white;
+  color: black;
   background: rgba(0, 0, 0, 0);
   position: relative;
   text-transform: uppercase;
